@@ -15,6 +15,7 @@ int main(void)
 			{
 				putchar(i);
 				putchar(j);
+			}
 			if (i == j)
 			{
 				continue;
