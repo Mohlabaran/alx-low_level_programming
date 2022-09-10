@@ -15,7 +15,6 @@ int main(void)
 			{
 				putchar(i);
 				putchar(j);
-			}	
 			if (i == j)
 			{
 				continue;
@@ -24,7 +23,7 @@ int main(void)
 			{
 				break;
 			}
-													else
+				else
 			{
 				putchar(',');
 				putchar(' ');
