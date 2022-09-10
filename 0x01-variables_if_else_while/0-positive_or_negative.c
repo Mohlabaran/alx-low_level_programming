@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  *main-entry point for the program.
- *
  *Return:0 if no errors, return non zero if errors
-*/
+**/
 int main(void)
 {
 	int n;
@@ -21,7 +19,7 @@ int main(void)
 	{
 		printf("%d is zero/n", n);
 	}
-	else
+	else if
 		printf("%d is negative/n", n);
 	return (0);
 }
